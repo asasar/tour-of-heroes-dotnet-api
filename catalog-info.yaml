@@ -7,7 +7,7 @@ metadata:
     - dotnet
     - data
   links:
-    - url: https://github.com/0GiS0/tour-of-heroes-dotnet-api
+    - url: https://github.com/asasar/tour-of-heroes-dotnet-api
       title: Source Code
       icon: github
     - url: https://api.heroes.com
@@ -20,7 +20,7 @@ metadata:
 spec:
   type: openai
   lifecycle: production
-  owner: user:0GiS0
+  owner: user:asasar
   system: tour-of-heroes
   dependsOn: ['resource:heroes-db']
   apiConsumedBy: ['component:www-heroes']
