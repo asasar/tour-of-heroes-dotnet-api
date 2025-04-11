@@ -20,8 +20,6 @@ metadata:
 spec:
   type: openai
   lifecycle: production
-  owner: user:asasar
-  system: tour-of-heroes
   dependsOn: ['resource:heroes-db']
   apiConsumedBy: ['component:www-heroes']
   definition: |
