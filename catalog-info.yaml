@@ -19,6 +19,7 @@ metadata:
     github.com/project-slug: asasar/tour-of-heroes-dotnet-api
 spec:
   type: openai
+  owner: guests
   lifecycle: production
   dependsOn: ['resource:heroes-db']
   apiConsumedBy: ['component:www-heroes']
